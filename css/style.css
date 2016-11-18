@@ -1,5 +1,16 @@
 * {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
-  color: #5e5f60; }
+  color: #5e5f60;
+  margin: 0px; }
+
+.background {
+  height: 90%;
+  width: 102%;
+  position: fixed;
+  z-index: -100; }
+
+header .logo {
+  height: 89px;
+  width: 246px; }
 
 /*# sourceMappingURL=style.css.map */
