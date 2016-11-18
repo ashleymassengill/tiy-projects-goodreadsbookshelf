@@ -7,16 +7,149 @@
   margin: 0px;
 }
 
-.background{
-  height: 90%;
-  width: 102%;
-  position: fixed;
-  z-index: -100;
+.mainbody{
+  .background{
+    height: 100%;
+    width: 101.75%;
+    position: fixed;
+    z-index: -100;
+  }
+  .top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    img{
+      height: 40px;
+      width: 40px;
+      padding: 5px;
+    }
+  }
+  header{
+    margin: 0 auto;
+    .mainhead{
+      border-bottom: 2px solid $boxgray;
+      height: 54px;
+      .logo{
+        float: left;
+        width: 25%;
+        img{
+          height: 89px;
+          width: 246px;
+          padding-left: 30px;
+        }
+      }
+      .mainnav {
+        padding-top: 35px;
+        float: left;
+        width: 60%;
+      }
+        li{
+          display: inline;
+        a{
+          text-decoration: none;
+          color: black;
+          font-size: 1.25rem;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+        .searchbar{
+          float: right;
+          width: 15%;
+          input{
+            padding-right: 30px;
+          }
+        }
+      }
+    }
+  .subhead{
+    clear: both;
+    width: 90%;
+    margin: 0 auto;
+    .shelfview{
+      float:left;
+      width: 25%;
+      h5{
+        font-size: 18px;
+        font-weight: normal;
+      }
+      ul{
+        border: 1px solid $boxgray;
+        li{
+          display: none;
+        }
+      }
+    }
+    .acctnav{
+      float: right;
+      width: 75%;
+      text-align: right;
+      .acctnavicon{
+        display: inline-block;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      img{
+        height: 35px;
+        width: 35px;
+      }
+      .acctnavdrop li{
+        text-align: left;
+      }
+    }
+  }
+}
 }
 
-header{
-  .logo{
-    height: 89px;
-    width: 246px;
+.bookshelf{
+  clear:both;
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 25px;
+  .book{
+    float: left;
+    margin: 15px;
+    img{
+      height: 250px;
+      object-fit: contain;
+    }
+  }
+}
+
+.loadmore{
+  clear:both;
+  text-align: center;
+  margin-bottom: 15px;
+  button{
+    background: white;
+    border: 2px solid $boxgray;
+    padding: 7px;
+    padding-left: 27px;
+    padding-right: 27px;
+    a{
+      text-decoration: none;
+      font-size: 24px;
+    }
+  }
+}
+
+footer{
+  background-color: $boxgraytrans;
+  height: 90px;
+  .footlist{
+    margin-left: 30px;
+    float:left;
+    width: 15%;
+  }
+  ul, i{
+    list-style: none;
+    padding: 5px;
+    padding-bottom: 10px;
+    li{
+      a{
+        text-decoration: none;
+        font-size: 14px;
+      }
+    }
   }
 }

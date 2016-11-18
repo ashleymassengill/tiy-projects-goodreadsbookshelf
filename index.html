@@ -11,11 +11,17 @@
   </head>
 
   <body>
-    <img src="images/goodreadsback.png" class="background">
+
+    <div class="mainbody">
+      <img src="images/goodreadsback.png" class="background">
+      <div class="top">
+        <a href="#top"><img src="images/icons/uparrow.svg" alt="to top"></a>
+      </div>
     <header>
+      <a name="top"></a>
       <div class="mainhead">
-        <div>
-          <a href="#"><img src="images/goodreadslogo.png" alt="Goodreads logo" class="logo"></a>
+        <div class="logo">
+          <a href="#"><img src="images/goodreadslogo.png" alt="Goodreads logo"></a>
         </div>
         <div class="mainnav">
           <ul>
@@ -32,23 +38,22 @@
       <div class="subhead">
         <div class="shelfview">
           <h5>View</h5>
-          <ul class="shelfnav">
-            <li>All</li>
+          <ul class="shelfnav">All
             <li>I've Read</li>
             <li>Want to Read</li>
           </ul>
         </div>
         <div class="acctnav">
-          <div class="acctnavicon">
+          <div class="acctnavicon sort">
             <img src="images/icons/sort.svg" alt="sort">
             <h5>Sort</h5>
-            <ul class="acctnavdrop">
+            <!-- <ul class="acctnavdrop">
               <li><a href="#">Author A-Z</a></li>
               <li><a href="#">Author Z-A</a></li>
               <li><a href="#">Title A-Z</a></li>
               <li><a href="#">Author Z-A</a></li>
               <li><a href="#">Rating</a></li>
-            </ul>
+            </ul> -->
           </div>
           <div class="acctnavicon">
             <img src="images/icons/stats.svg" alt="stats">
@@ -73,14 +78,14 @@
           <div class="acctnavicon">
             <img src="images/icons/tools.svg" alt="tools">
             <h5>Tools</h5>
-            <ul class="acctnavdrop">
+            <!-- <ul class="acctnavdrop tools">
               <li><a href="#">Most Read Authors</a></li>
               <li><a href="#">Amazon Book Purchases</a></li>
               <li><a href="#">Import/Export</a></li>
               <li><a href="#">Find Duplicates</a></li>
               <li><a href="#">Widgets</a></li>
               <li><a href="#">Shelf Cloud</a></li>
-            </ul>
+            </ul> -->
           </div>
         </div>
       </div>
@@ -166,6 +171,9 @@
       <img src="images/books/gatheringshadows.jpg" alt="A Gathering of Shadows, V.E. Schwab">
     </div>
     <div class="book">
+      <img src="images/books/conjuringlight.jpg" alt="A Conjuring of Light, V.E. Schwab">
+    </div>
+    <div class="book">
       <img src="images/books/boneseason.jpg" alt="The Bone Season, Samantha Shannon">
     </div>
     <div class="book">
@@ -176,29 +184,29 @@
     </div>
   </div>
   <div class="loadmore">
-    <h4>Load More</h4>
+    <button><a href="#">Load More</a></button>
   </div>
-
+</div>
   <footer>
-    <div class="footlink1">
-      <ul class="footlist">
+    <div class="footlist">
+      <i class="fa fa-copyright" aria-hidden="true"></i>
+ 2016 Goodreads Inc
+    </div>
+    <div class="footlist">
+      <ul>
         <li><a href="#">Help</a></li>
         <li><a href="#">Jobs</a></li>
         <li><a href="#">Blogs</a></li>
         <li><a href="#">Terms/Privacy</a></li>
       </ul>
     </div>
-    <div class="footlink2">
-      <ul class="footlist">
+    <div class="footlist">
+      <ul>
         <li><a href="#">About</a></li>
         <li><a href="#">Advertise</a></li>
         <li><a href="#">Author Program</a></li>
         <li><a href="#">API</a></li>
       </ul>
-    </div>
-    <div class="copyright">
-      <i class="fa fa-copyright" aria-hidden="true"></i>
- 2016 Goodreads Inc
     </div>
   </footer>
   </body>

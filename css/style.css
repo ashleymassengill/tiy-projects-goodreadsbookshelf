@@ -3,14 +3,116 @@
   color: #5e5f60;
   margin: 0px; }
 
-.background {
-  height: 90%;
-  width: 102%;
+.mainbody .background {
+  height: 100%;
+  width: 101.75%;
   position: fixed;
   z-index: -100; }
+.mainbody .top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px; }
+  .mainbody .top img {
+    height: 40px;
+    width: 40px;
+    padding: 5px; }
+.mainbody header {
+  margin: 0 auto; }
+  .mainbody header .mainhead {
+    border-bottom: 2px solid #bbbbbe;
+    height: 54px; }
+    .mainbody header .mainhead .logo {
+      float: left;
+      width: 25%; }
+      .mainbody header .mainhead .logo img {
+        height: 89px;
+        width: 246px;
+        padding-left: 30px; }
+    .mainbody header .mainhead .mainnav {
+      padding-top: 35px;
+      float: left;
+      width: 60%; }
+    .mainbody header .mainhead li {
+      display: inline; }
+      .mainbody header .mainhead li a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.25rem;
+        padding-left: 10px;
+        padding-right: 10px; }
+      .mainbody header .mainhead li .searchbar {
+        float: right;
+        width: 15%; }
+        .mainbody header .mainhead li .searchbar input {
+          padding-right: 30px; }
+  .mainbody header .subhead {
+    clear: both;
+    width: 90%;
+    margin: 0 auto; }
+    .mainbody header .subhead .shelfview {
+      float: left;
+      width: 25%; }
+      .mainbody header .subhead .shelfview h5 {
+        font-size: 18px;
+        font-weight: normal; }
+      .mainbody header .subhead .shelfview ul {
+        border: 1px solid #bbbbbe; }
+        .mainbody header .subhead .shelfview ul li {
+          display: none; }
+    .mainbody header .subhead .acctnav {
+      float: right;
+      width: 75%;
+      text-align: right; }
+      .mainbody header .subhead .acctnav .acctnavicon {
+        display: inline-block;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px; }
+      .mainbody header .subhead .acctnav img {
+        height: 35px;
+        width: 35px; }
+      .mainbody header .subhead .acctnav .acctnavdrop li {
+        text-align: left; }
 
-header .logo {
-  height: 89px;
-  width: 246px; }
+.bookshelf {
+  clear: both;
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 25px; }
+  .bookshelf .book {
+    float: left;
+    margin: 15px; }
+    .bookshelf .book img {
+      height: 250px;
+      object-fit: contain; }
+
+.loadmore {
+  clear: both;
+  text-align: center;
+  margin-bottom: 15px; }
+  .loadmore button {
+    background: white;
+    border: 2px solid #bbbbbe;
+    padding: 7px;
+    padding-left: 27px;
+    padding-right: 27px; }
+    .loadmore button a {
+      text-decoration: none;
+      font-size: 24px; }
+
+footer {
+  background-color: rgba(187, 187, 190, 0.5);
+  height: 90px; }
+  footer .footlist {
+    margin-left: 30px;
+    float: left;
+    width: 15%; }
+  footer ul, footer i {
+    list-style: none;
+    padding: 5px;
+    padding-bottom: 10px; }
+    footer ul li a, footer i li a {
+      text-decoration: none;
+      font-size: 14px; }
 
 /*# sourceMappingURL=style.css.map */
