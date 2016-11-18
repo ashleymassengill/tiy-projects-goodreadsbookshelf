@@ -7,98 +7,108 @@
   margin: 0px;
 }
 
-.mainbody{
-  .background{
-    height: 100%;
-    width: 101.75%;
-    position: fixed;
-    z-index: -100;
+.background{
+  height: 100%;
+  width: 101.75%;
+  position: fixed;
+  z-index: -100;
+}
+
+.top{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  img{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
   }
-  .top{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
+}
+
+.mainhead{
+  border-bottom: 2px solid $boxgray;
+  height: 54px;
+  .logo{
+    float: left;
+    width: 25%;
     img{
-      height: 40px;
-      width: 40px;
-      padding: 5px;
+      height: 89px;
+      width: 246px;
+      padding-left: 30px;
     }
   }
-  header{
-    margin: 0 auto;
-    .mainhead{
-      border-bottom: 2px solid $boxgray;
-      height: 54px;
-      .logo{
-        float: left;
-        width: 25%;
-        img{
-          height: 89px;
-          width: 246px;
-          padding-left: 30px;
-        }
-      }
-      .mainnav {
-        padding-top: 35px;
-        float: left;
-        width: 60%;
-      }
-        li{
-          display: inline;
-        a{
-          text-decoration: none;
-          color: black;
-          font-size: 1.25rem;
-          padding-left: 10px;
-          padding-right: 10px;
-        }
-        .searchbar{
-          float: right;
-          width: 15%;
-          input{
-            padding-right: 30px;
-          }
-        }
-      }
-    }
-  .subhead{
-    clear: both;
-    width: 90%;
-    margin: 0 auto;
-    .shelfview{
-      float:left;
-      width: 25%;
-      h5{
-        font-size: 18px;
-        font-weight: normal;
-      }
-      ul{
-        border: 1px solid $boxgray;
-        li{
-          display: none;
-        }
-      }
-    }
-    .acctnav{
-      float: right;
-      width: 75%;
-      text-align: right;
-      .acctnavicon{
-        display: inline-block;
-        text-align: center;
-        padding-left: 10px;
-        padding-right: 10px;
-      }
-      img{
-        height: 35px;
-        width: 35px;
-      }
-      .acctnavdrop li{
-        text-align: left;
-      }
+  .mainnav {
+    padding-top: 35px;
+    float: left;
+    width: 55%;
+  }
+    li{
+      display: inline;
+    a{
+      text-decoration: none;
+      color: black;
+      font-size: 1.25rem;
+      padding-left: 10px;
+      padding-right: 10px;
     }
   }
 }
+
+.searchbar{
+  float: right;
+  width: 15%;
+  padding-top: 20px;
+  input{
+    display: block;
+    padding: 4px;
+  }
+}
+
+.subhead{
+  clear: both;
+  width: 90%;
+  margin: 0 auto;
+  .shelfview{
+    float:left;
+    width: 35%;
+    h5{
+      font-size: 18px;
+      font-weight: normal;
+      display: inline-block;
+    }
+    ul{
+      display: inline-block;
+      text-align: left;
+      border: 1px solid $boxgray;
+      padding: 4px;
+      width: 250px;
+      li{
+        text-align: left;
+        display: none;
+      }
+    }
+  }
+  .acctnav{
+    float: right;
+    width: 65%;
+    text-align: right;
+    .acctnavicon{
+      display: inline-block;
+      text-align: center;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    img{
+      height: 35px;
+      width: 35px;
+    }
+    .acctnavdrop li{
+      text-align: left;
+    }
+    a{
+      text-decoration: none;
+    }
+  }
 }
 
 .bookshelf{

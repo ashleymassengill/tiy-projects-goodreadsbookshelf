@@ -3,76 +3,88 @@
   color: #5e5f60;
   margin: 0px; }
 
-.mainbody .background {
+.background {
   height: 100%;
   width: 101.75%;
   position: fixed;
   z-index: -100; }
-.mainbody .top {
+
+.top {
   position: fixed;
   bottom: 20px;
   right: 20px; }
-  .mainbody .top img {
+  .top img {
     height: 40px;
     width: 40px;
     padding: 5px; }
-.mainbody header {
+
+.mainhead {
+  border-bottom: 2px solid #bbbbbe;
+  height: 54px; }
+  .mainhead .logo {
+    float: left;
+    width: 25%; }
+    .mainhead .logo img {
+      height: 89px;
+      width: 246px;
+      padding-left: 30px; }
+  .mainhead .mainnav {
+    padding-top: 35px;
+    float: left;
+    width: 55%; }
+  .mainhead li {
+    display: inline; }
+    .mainhead li a {
+      text-decoration: none;
+      color: black;
+      font-size: 1.25rem;
+      padding-left: 10px;
+      padding-right: 10px; }
+
+.searchbar {
+  float: right;
+  width: 15%;
+  padding-top: 20px; }
+  .searchbar input {
+    display: block;
+    padding: 4px; }
+
+.subhead {
+  clear: both;
+  width: 90%;
   margin: 0 auto; }
-  .mainbody header .mainhead {
-    border-bottom: 2px solid #bbbbbe;
-    height: 54px; }
-    .mainbody header .mainhead .logo {
-      float: left;
-      width: 25%; }
-      .mainbody header .mainhead .logo img {
-        height: 89px;
-        width: 246px;
-        padding-left: 30px; }
-    .mainbody header .mainhead .mainnav {
-      padding-top: 35px;
-      float: left;
-      width: 60%; }
-    .mainbody header .mainhead li {
-      display: inline; }
-      .mainbody header .mainhead li a {
-        text-decoration: none;
-        color: black;
-        font-size: 1.25rem;
-        padding-left: 10px;
-        padding-right: 10px; }
-      .mainbody header .mainhead li .searchbar {
-        float: right;
-        width: 15%; }
-        .mainbody header .mainhead li .searchbar input {
-          padding-right: 30px; }
-  .mainbody header .subhead {
-    clear: both;
-    width: 90%;
-    margin: 0 auto; }
-    .mainbody header .subhead .shelfview {
-      float: left;
-      width: 25%; }
-      .mainbody header .subhead .shelfview h5 {
-        font-size: 18px;
-        font-weight: normal; }
-      .mainbody header .subhead .shelfview ul {
-        border: 1px solid #bbbbbe; }
-        .mainbody header .subhead .shelfview ul li {
-          display: none; }
-    .mainbody header .subhead .acctnav {
-      float: right;
-      width: 75%;
-      text-align: right; }
-      .mainbody header .subhead .acctnav .acctnavicon {
-        display: inline-block;
-        text-align: center;
-        padding-left: 10px;
-        padding-right: 10px; }
-      .mainbody header .subhead .acctnav img {
-        height: 35px;
-        width: 35px; }
-      .mainbody header .subhead .acctnav .acctnavdrop li {
-        text-align: left; }
+  .subhead .shelfview {
+    float: left;
+    width: 35%; }
+    .subhead .shelfview h5 {
+      font-size: 18px;
+      font-weight: normal;
+      display: inline-block; }
+    .subhead .shelfview ul {
+      display: inline-block;
+      text-align: left;
+      border: 1px solid #bbbbbe;
+      padding: 4px;
+      width: 250px; }
+      .subhead .shelfview ul li {
+        text-align: left;
+        display: none; }
+  .subhead .acctnav {
+    float: right;
+    width: 65%;
+    text-align: right; }
+    .subhead .acctnav .acctnavicon {
+      display: inline-block;
+      text-align: center;
+      padding-left: 10px;
+      padding-right: 10px; }
+    .subhead .acctnav img {
+      height: 35px;
+      width: 35px; }
+    .subhead .acctnav .acctnavdrop li {
+      text-align: left; }
+    .subhead .acctnav a {
+      text-decoration: none; }
 
 .bookshelf {
   clear: both;
