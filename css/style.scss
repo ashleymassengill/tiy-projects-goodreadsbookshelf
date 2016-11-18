@@ -70,7 +70,7 @@
   margin: 0 auto;
   .shelfview{
     float:left;
-    width: 35%;
+    width: 30%;
     h5{
       font-size: 18px;
       font-weight: normal;
@@ -88,27 +88,43 @@
       }
     }
   }
-  .acctnav{
-    float: right;
-    width: 65%;
-    text-align: right;
-    .acctnavicon{
-      display: inline-block;
-      text-align: center;
-      padding-left: 10px;
-      padding-right: 10px;
-    }
+}
+
+.acctnav{
+  float: right;
+  width: 70%;
+  text-align: right;
+  .acctnavicon{
+    display: inline-block;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 25px;
+    position: relative;
     img{
       height: 35px;
       width: 35px;
     }
-    .acctnavdrop li{
-      text-align: left;
-    }
     a{
-      text-decoration: none;
+        text-decoration: none;
     }
   }
+}
+
+.acctnavdrop{
+  list-style: none;
+  padding-left: 0px;
+  padding-top: 5px;
+  position: absolute;
+  li{
+    font-size: 14px;
+    padding-top: 2px;
+    text-align: left;
+    display: none;
+  }
+}
+
+.acctnavicon:hover li{
+  display: block;
 }
 
 .bookshelf{
