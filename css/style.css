@@ -4,19 +4,16 @@
   margin: 0px; }
 
 .background {
-  height: 100%;
+  height: 98%;
   width: 101.75%;
   position: fixed;
   z-index: -100; }
 
-.top {
+header {
+  background: white;
   position: fixed;
-  bottom: 20px;
-  right: 20px; }
-  .top img {
-    height: 40px;
-    width: 40px;
-    padding: 5px; }
+  width: 100%;
+  top: 0px; }
 
 .mainhead {
   border-bottom: 2px solid #bbbbbe;
@@ -53,43 +50,80 @@
   clear: both;
   width: 90%;
   margin: 0 auto; }
-  .subhead .shelfview {
+  .subhead p {
+    font-size: 18px;
+    font-weight: normal;
     float: left;
-    width: 35%; }
-    .subhead .shelfview h5 {
-      font-size: 18px;
-      font-weight: normal;
-      display: inline-block; }
+    padding-right: 5px; }
+  .subhead .shelfview {
+    float: left; }
     .subhead .shelfview ul {
-      display: inline-block;
       text-align: left;
       border: 1px solid #bbbbbe;
       padding: 4px;
       width: 250px; }
+      .subhead .shelfview ul a {
+        text-decoration: none; }
       .subhead .shelfview ul li {
         text-align: left;
         display: none; }
-  .subhead .acctnav {
-    float: right;
-    width: 65%;
-    text-align: right; }
-    .subhead .acctnav .acctnavicon {
-      display: inline-block;
-      text-align: center;
-      padding-left: 10px;
-      padding-right: 10px; }
-    .subhead .acctnav img {
+
+.shelfview .shelfnav:hover li {
+  display: block; }
+
+.shelfnav li:hover {
+  background: #bbbbbe; }
+
+.acctnav {
+  float: right;
+  width: 70%;
+  text-align: right; }
+  .acctnav .acctnavicon {
+    display: inline-block;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 25px;
+    position: relative; }
+    .acctnav .acctnavicon img {
       height: 35px;
       width: 35px; }
-    .subhead .acctnav .acctnavdrop li {
-      text-align: left; }
-    .subhead .acctnav a {
+    .acctnav .acctnavicon a {
       text-decoration: none; }
+
+.acctnavdrop {
+  list-style: none;
+  padding-left: 0px;
+  padding-top: 5px;
+  position: absolute; }
+  .acctnavdrop li {
+    font-size: 14px;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-align: left;
+    background: white;
+    display: none; }
+
+.acctnavicon:hover li {
+  display: block; }
+
+.acctnavdrop li:hover {
+  background: #bbbbbe; }
+
+.top {
+  position: fixed;
+  bottom: 35px;
+  right: 20px; }
+  .top img {
+    height: 40px;
+    width: 40px;
+    padding: 5px; }
 
 .bookshelf {
   clear: both;
   width: 85%;
   margin: 0 auto;
+  margin-top: 150px;
   padding-top: 25px; }
   .bookshelf .book {
     float: left;
@@ -101,7 +135,7 @@
 .loadmore {
   clear: both;
   text-align: center;
-  margin-bottom: 15px; }
+  margin-bottom: 50px; }
   .loadmore button {
     background: white;
     border: 2px solid #bbbbbe;
@@ -113,18 +147,21 @@
       font-size: 24px; }
 
 footer {
-  background-color: rgba(187, 187, 190, 0.5);
-  height: 90px; }
+  background-color: #bbbbbe;
+  text-align: center;
+  height: 35px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%; }
   footer .footlist {
-    margin-left: 30px;
-    float: left;
-    width: 15%; }
-  footer ul, footer i {
-    list-style: none;
-    padding: 5px;
+    padding-top: 5px;
     padding-bottom: 10px; }
-    footer ul li a, footer i li a {
-      text-decoration: none;
-      font-size: 14px; }
+    footer .footlist li {
+      display: inline;
+      padding-left: 15px;
+      padding-right: 15px; }
+      footer .footlist li a {
+        text-decoration: none;
+        font-size: 14px; }
 
 /*# sourceMappingURL=style.css.map */

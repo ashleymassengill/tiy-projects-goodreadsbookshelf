@@ -8,21 +8,17 @@
 }
 
 .background{
-  height: 100%;
+  height: 98%;
   width: 101.75%;
   position: fixed;
   z-index: -100;
 }
 
-.top{
+header{
+  background: white;
   position: fixed;
-  bottom: 20px;
-  right: 20px;
-  img{
-    height: 40px;
-    width: 40px;
-    padding: 5px;
-  }
+  width: 100%;
+  top: 0px;
 }
 
 .mainhead{
@@ -68,26 +64,36 @@
   clear: both;
   width: 90%;
   margin: 0 auto;
+  p{
+    font-size: 18px;
+    font-weight: normal;
+    float:left;
+    padding-right: 5px;
+  }
   .shelfview{
     float:left;
-    width: 30%;
-    h5{
-      font-size: 18px;
-      font-weight: normal;
-      display: inline-block;
-    }
     ul{
-      display: inline-block;
       text-align: left;
       border: 1px solid $boxgray;
       padding: 4px;
       width: 250px;
+      a{
+        text-decoration: none;
+      }
       li{
         text-align: left;
         display: none;
       }
     }
   }
+}
+
+.shelfview .shelfnav:hover li{
+  display: block;
+}
+
+.shelfnav li:hover{
+  background: $boxgray;
 }
 
 .acctnav{
@@ -117,8 +123,11 @@
   position: absolute;
   li{
     font-size: 14px;
-    padding-top: 2px;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
     text-align: left;
+    background: white;
     display: none;
   }
 }
@@ -127,10 +136,26 @@
   display: block;
 }
 
+.acctnavdrop li:hover{
+  background: $boxgray;
+}
+
+.top{
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  img{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+  }
+}
+
 .bookshelf{
   clear:both;
   width: 85%;
   margin: 0 auto;
+  margin-top: 150px;
   padding-top: 25px;
   .book{
     float: left;
@@ -145,7 +170,7 @@
 .loadmore{
   clear:both;
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 50px;
   button{
     background: white;
     border: 2px solid $boxgray;
@@ -160,18 +185,19 @@
 }
 
 footer{
-  background-color: $boxgraytrans;
-  height: 90px;
+  background-color: $boxgray;
+  text-align: center;
+  height: 35px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
   .footlist{
-    margin-left: 30px;
-    float:left;
-    width: 15%;
-  }
-  ul, i{
-    list-style: none;
-    padding: 5px;
+    padding-top: 5px;
     padding-bottom: 10px;
     li{
+      display: inline;
+      padding-left: 15px;
+      padding-right: 15px;
       a{
         text-decoration: none;
         font-size: 14px;

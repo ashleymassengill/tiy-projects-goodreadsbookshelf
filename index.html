@@ -12,9 +12,6 @@
 
 <body>
     <img src="images/goodreadsback.png" class="background">
-    <div class="top">
-        <a href="#top"><img src="images/icons/uparrow.svg" alt="to top"></a>
-    </div>
     <header>
       <a name="top"></a>
       <div class="mainhead">
@@ -34,14 +31,16 @@
         </div>
       </div>
       <div class="subhead">
+        <p>View</p>
         <div class="shelfview">
-          <h5>View</h5>
-          <ul class="shelfnav">All
-            <li>I've Read</li>
-            <li>Want to Read</li>
+          <ul class="shelfnav"><a href="#">Bookshelf</a>
+            <li><a href="#">All</a></li>
+            <li><a href="#">I've Read</a></li>
+            <li><a href="#">Want to Read</a></li>
           </ul>
         </div>
-        <ul class="acctnav">
+        <div class="acctnav">
+        <ul>
           <li class="acctnavicon">
             <a href="#"><img src="images/icons/sort.svg" alt="sort"><h5>Sort</h5></a>
               <ul class="acctnavdrop">
@@ -83,6 +82,9 @@
     </header>
 
   <div class="bookshelf">
+    <div class="top">
+        <a href="#top"><img src="images/icons/uparrow.svg" alt="to top"></a>
+    </div>
     <div class="book">
       <img src="images/books/immortals.jpg" alt="The Immortals, Jordanna Max Brodsky">
     </div>
@@ -181,19 +183,12 @@
 
   <footer>
     <div class="footlist">
-      <i class="fa fa-copyright" aria-hidden="true"></i>
- 2016 Goodreads Inc
-    </div>
-    <div class="footlist">
       <ul>
         <li><a href="#">Help</a></li>
         <li><a href="#">Jobs</a></li>
         <li><a href="#">Blogs</a></li>
         <li><a href="#">Terms/Privacy</a></li>
-      </ul>
-    </div>
-    <div class="footlist">
-      <ul>
+        <li><i class="fa fa-copyright" aria-hidden="true"></i> 2016 Goodreads Inc</li>
         <li><a href="#">About</a></li>
         <li><a href="#">Advertise</a></li>
         <li><a href="#">Author Program</a></li>
