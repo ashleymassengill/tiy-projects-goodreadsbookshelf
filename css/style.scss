@@ -7,6 +7,10 @@
   margin: 0px;
 }
 
+a{
+  text-decoration: none;
+}
+
 .background{
   height: 98%;
   width: 101.75%;
@@ -41,11 +45,25 @@ header{
     li{
       display: inline;
     a{
-      text-decoration: none;
       color: black;
       font-size: 1.25rem;
       padding-left: 10px;
       padding-right: 10px;
+    }
+  }
+}
+
+.mobilenav{
+  color: black;
+  font-size: 1.25rem;
+  padding-right: 15px;
+  display: none;
+  .mobiledrop{
+    li{
+      font-size: 1rem;
+      padding: 5px;
+      display: block;
+      visibility: hidden;
     }
   }
 }
@@ -72,18 +90,11 @@ header{
   }
   .shelfview{
     float:left;
-    ul{
+    select{
       text-align: left;
       border: 1px solid $boxgray;
       padding: 4px;
       width: 250px;
-      a{
-        text-decoration: none;
-      }
-      li{
-        text-align: left;
-        display: none;
-      }
     }
   }
 }
@@ -109,9 +120,6 @@ header{
     img{
       height: 35px;
       width: 35px;
-    }
-    a{
-        text-decoration: none;
     }
   }
 }
@@ -178,7 +186,6 @@ header{
     padding-left: 27px;
     padding-right: 27px;
     a{
-      text-decoration: none;
       font-size: 24px;
     }
   }
@@ -199,7 +206,6 @@ footer{
       padding-left: 15px;
       padding-right: 15px;
       a{
-        text-decoration: none;
         font-size: 14px;
       }
     }

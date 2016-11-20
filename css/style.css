@@ -3,6 +3,9 @@
   color: #5e5f60;
   margin: 0px; }
 
+a {
+  text-decoration: none; }
+
 .background {
   height: 98%;
   width: 101.75%;
@@ -32,11 +35,21 @@ header {
   .mainhead li {
     display: inline; }
     .mainhead li a {
-      text-decoration: none;
       color: black;
       font-size: 1.25rem;
       padding-left: 10px;
       padding-right: 10px; }
+
+.mobilenav {
+  color: black;
+  font-size: 1.25rem;
+  padding-right: 15px;
+  display: none; }
+  .mobilenav .mobiledrop li {
+    font-size: 1rem;
+    padding: 5px;
+    display: block;
+    visibility: hidden; }
 
 .searchbar {
   float: right;
@@ -57,16 +70,11 @@ header {
     padding-right: 5px; }
   .subhead .shelfview {
     float: left; }
-    .subhead .shelfview ul {
+    .subhead .shelfview select {
       text-align: left;
       border: 1px solid #bbbbbe;
       padding: 4px;
       width: 250px; }
-      .subhead .shelfview ul a {
-        text-decoration: none; }
-      .subhead .shelfview ul li {
-        text-align: left;
-        display: none; }
 
 .shelfview .shelfnav:hover li {
   display: block; }
@@ -87,8 +95,6 @@ header {
     .acctnav .acctnavicon img {
       height: 35px;
       width: 35px; }
-    .acctnav .acctnavicon a {
-      text-decoration: none; }
 
 .acctnavdrop {
   list-style: none;
@@ -143,7 +149,6 @@ header {
     padding-left: 27px;
     padding-right: 27px; }
     .loadmore button a {
-      text-decoration: none;
       font-size: 24px; }
 
 footer {
@@ -161,7 +166,6 @@ footer {
       padding-left: 15px;
       padding-right: 15px; }
       footer .footlist li a {
-        text-decoration: none;
         font-size: 14px; }
 
 /*# sourceMappingURL=style.css.map */
