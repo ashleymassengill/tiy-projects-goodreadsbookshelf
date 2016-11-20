@@ -1,0 +1,19 @@
+.shelfview .shelfnav:hover li{
+  display: block;
+}
+
+.shelfnav li:hover{
+  background: $boxgray;
+}
+
+.acctnavicon:hover li{
+  display: block;
+}
+
+.acctnavdrop li:hover{
+  background: $boxgray;
+}
+
+.mobilenav .mobiledrop:hover li{
+  display: block;
+}

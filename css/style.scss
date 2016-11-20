@@ -1,5 +1,5 @@
 @import "variables.scss";
-@import "mixins.scss";
+@import "navhovers.scss";
 
 *{
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
@@ -12,7 +12,7 @@ a{
 }
 
 .background{
-  height: 98%;
+  height: 80%;
   width: 101.75%;
   position: fixed;
   z-index: -100;
@@ -57,14 +57,14 @@ header{
 .mobilenav{
   color: black;
   font-size: 1.25rem;
-  padding-right: 15px;
+  padding-right: 30px;
   display: none;
   .mobiledrop{
     li{
       font-size: 1rem;
       padding: 5px;
       display: block;
-      visibility: hidden;
+      display: none;
     }
   }
 }
@@ -100,14 +100,6 @@ header{
   }
 }
 
-.shelfview .shelfnav:hover li{
-  display: block;
-}
-
-.shelfnav li:hover{
-  background: $boxgray;
-}
-
 .acctnav{
   float: right;
   width: 70%;
@@ -139,14 +131,6 @@ header{
     background: white;
     display: none;
   }
-}
-
-.acctnavicon:hover li{
-  display: block;
-}
-
-.acctnavdrop li:hover{
-  background: $boxgray;
 }
 
 .top{
@@ -196,8 +180,6 @@ header{
   display: block;
 }
 
-
-
 .loadmore{
   clear:both;
   text-align: center;
@@ -234,3 +216,5 @@ footer{
     }
   }
 }
+
+@import "mediaquery.scss";

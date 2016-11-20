@@ -1,0 +1,173 @@
+// tablet responsive
+@media(min-width: 768px) and (max-width: 1024px){
+  .mainhead{
+    height: 40.5px;
+    .logo{
+      clear: both;
+      img{
+        height: 66.75px;
+        width: 184.5px;
+      }
+    }
+    .mainnav{
+      padding-top: 23px;
+      padding-right: 30px;
+      text-align: right;
+      float: right;
+      width: 500px;
+    }
+  }
+
+  .searchbar{
+    clear: both;
+    width: 90%;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    input{
+      width: 90%;
+    }
+  }
+
+  .subhead{
+    p{
+      clear: both;
+      display: none;
+    }
+    .shelfview{
+      clear: both;
+      float: left;
+      width: 100%;
+      text-align: center;
+      select{
+        width: 90%;
+      }
+    }
+  }
+
+  .acctnav{
+    clear: both;
+    text-align: center;
+    width: 100%;
+    .acctnavicon{
+      clear: both;
+      padding: 10px 20px;
+      img{
+        height: 30px;
+        width: 30px;
+      }
+    }
+  }
+
+  .bookshelf{
+    margin-top: 175px;
+    width: 90%;
+    text-align: center;
+  }
+
+  footer, .footlist{
+    display: none;
+  }
+}
+
+
+// mobile responsive
+@media(min-width: 0px) and (max-width: 767px){
+  .background{
+    display: none;
+  }
+  .mainhead{
+    height: 27px;
+    .logo{
+      clear: both;
+      img{
+        height: 44.5px;
+        width: 123px;
+      }
+    }
+    .mainnav{
+      display: none;
+    }
+  }
+
+  .mobilenav{
+    display: block;
+    padding-top: 8px;
+    float: right;
+    text-align: right;
+  }
+
+.searchbar{
+  clear: both;
+  width: 90%;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  input{
+    width: 90%;
+  }
+}
+
+.subhead{
+  p{
+    clear: both;
+    display: none;
+  }
+  .shelfview{
+    clear: both;
+    float: left;
+    width: 100%;
+    text-align: center;
+    select{
+      width: 90%;
+    }
+  }
+}
+
+span{
+  clear: both;
+}
+
+.acctnav{
+  clear: both;
+  text-align: center;
+  width: 100%;
+  .acctnavicon{
+    clear: both;
+    padding: 8px 8px;
+    img{
+      height: 25px;
+      width: 25px;
+    }
+    h5{
+      display: none;
+    }
+  }
+}
+
+.bookshelf{
+  margin-top: 125px;
+  width: 90%;
+  text-align: center;
+  .book{
+    clear: both;
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    img{
+      height: 400px;
+      object-fit: contain;
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+    .hover{
+      position: static;
+      height: 150px;
+    }
+  }
+}
+
+  footer, .footlist{
+    display: none;
+  }
+}
