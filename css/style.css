@@ -126,11 +126,11 @@ header {
     background: white;
     display: none; }
 
-#top {
+#topbutton {
   position: fixed;
   bottom: 35px;
   right: 20px; }
-  #top img {
+  #topbutton img {
     height: 40px;
     width: 40px;
     padding: 5px; }
