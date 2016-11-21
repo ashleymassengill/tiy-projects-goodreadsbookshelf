@@ -104,15 +104,18 @@ header{
   float: right;
   width: 70%;
   text-align: right;
-  .acctnavicon{
-    display: inline-block;
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 25px;
-    position: relative;
-    img{
-      height: 35px;
-      width: 35px;
+  ul{
+    padding-left: 0px;
+    .acctnavicon{
+      display: inline-block;
+      text-align: center;
+      padding-left: 20px;
+      padding-right: 25px;
+      position: relative;
+      img{
+        height: 35px;
+        width: 35px;
+      }
     }
   }
 }

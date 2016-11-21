@@ -129,18 +129,21 @@ span{
 }
 
 .acctnav{
-  clear: both;
+  float: none;
   text-align: center;
+  margin: 0 auto;
   width: 100%;
-  .acctnavicon{
-    clear: both;
-    padding: 8px 8px;
-    img{
-      height: 25px;
-      width: 25px;
-    }
-    h5{
-      display: none;
+  ul{
+    padding-left: 0px;
+    .acctnavicon{
+      padding: 8px 8px;
+      img{
+        height: 25px;
+        width: 25px;
+      }
+      h5{
+        display: none;
+      }
     }
   }
 }
