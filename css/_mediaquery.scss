@@ -46,15 +46,18 @@
   }
 
   .acctnav{
-    clear: both;
+    float: none;
     text-align: center;
+    margin: 0 auto;
     width: 100%;
-    .acctnavicon{
-      clear: both;
-      padding: 10px 20px;
-      img{
-        height: 30px;
-        width: 30px;
+    ul{
+      padding-left: 0px;
+      .acctnavicon{
+        padding: 10px 20px;
+        img{
+          height: 30px;
+          width: 30px;
+        }
       }
     }
   }
@@ -62,7 +65,14 @@
   .bookshelf{
     margin-top: 175px;
     width: 90%;
-    text-align: center;
+    .book{
+      img{
+        height: 300px;
+      }
+      .hover{
+        height: 300px;
+      }
+    }
   }
 
   footer, .footlist{
@@ -153,10 +163,9 @@ span{
   width: 90%;
   text-align: center;
   .book{
-    clear: both;
     position: static;
-    margin-left: auto;
-    margin-right: auto;
+    float: none;
+    text-align: center;
     img{
       height: 400px;
       object-fit: contain;

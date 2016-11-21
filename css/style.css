@@ -96,15 +96,17 @@ header {
   float: right;
   width: 70%;
   text-align: right; }
-  .acctnav .acctnavicon {
-    display: inline-block;
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 25px;
-    position: relative; }
-    .acctnav .acctnavicon img {
-      height: 35px;
-      width: 35px; }
+  .acctnav ul {
+    padding-left: 0px; }
+    .acctnav ul .acctnavicon {
+      display: inline-block;
+      text-align: center;
+      padding-left: 20px;
+      padding-right: 25px;
+      position: relative; }
+      .acctnav ul .acctnavicon img {
+        height: 35px;
+        width: 35px; }
 
 .acctnavdrop {
   list-style: none;
@@ -120,11 +122,11 @@ header {
     background: white;
     display: none; }
 
-.top {
+#top {
   position: fixed;
   bottom: 35px;
   right: 20px; }
-  .top img {
+  #top img {
     height: 40px;
     width: 40px;
     padding: 5px; }
@@ -225,20 +227,25 @@ footer {
       width: 90%; }
 
   .acctnav {
-    clear: both;
+    float: none;
     text-align: center;
+    margin: 0 auto;
     width: 100%; }
-    .acctnav .acctnavicon {
-      clear: both;
-      padding: 10px 20px; }
-      .acctnav .acctnavicon img {
-        height: 30px;
-        width: 30px; }
+    .acctnav ul {
+      padding-left: 0px; }
+      .acctnav ul .acctnavicon {
+        padding: 10px 20px; }
+        .acctnav ul .acctnavicon img {
+          height: 30px;
+          width: 30px; }
 
   .bookshelf {
     margin-top: 175px;
-    width: 90%;
-    text-align: center; }
+    width: 90%; }
+    .bookshelf .book img {
+      height: 300px; }
+    .bookshelf .book .hover {
+      height: 300px; }
 
   footer, .footlist {
     display: none; } }
@@ -286,27 +293,28 @@ footer {
     clear: both; }
 
   .acctnav {
-    clear: both;
+    float: none;
     text-align: center;
+    margin: 0 auto;
     width: 100%; }
-    .acctnav .acctnavicon {
-      clear: both;
-      padding: 8px 8px; }
-      .acctnav .acctnavicon img {
-        height: 25px;
-        width: 25px; }
-      .acctnav .acctnavicon h5 {
-        display: none; }
+    .acctnav ul {
+      padding-left: 0px; }
+      .acctnav ul .acctnavicon {
+        padding: 8px 8px; }
+        .acctnav ul .acctnavicon img {
+          height: 25px;
+          width: 25px; }
+        .acctnav ul .acctnavicon h5 {
+          display: none; }
 
   .bookshelf {
     margin-top: 125px;
     width: 90%;
     text-align: center; }
     .bookshelf .book {
-      clear: both;
       position: static;
-      margin-left: auto;
-      margin-right: auto; }
+      float: none;
+      text-align: center; }
       .bookshelf .book img {
         height: 400px;
         object-fit: contain;
