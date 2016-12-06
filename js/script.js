@@ -22,15 +22,12 @@ $(document).ready(function(event){
   });
 });
 
-// Bookshelf select and load more
-var selectedBook = $('.shelfselect').val();
-
 // bookshelf filtering code
 $(document).ready(function(event){
   $('.shelfselect').change(function(){
-     $('.book').hide();
-      $('.'+$(this).val()).slice(0, 12).show();
-      console.log("showing "+$(this).val()+" bookshelf");
+    $('.book').hide();
+    $('.'+$(this).val()).slice(0, 12).show();
+    console.log("showing "+$(this).val()+" bookshelf");
    });
 });
 // Load more content with jQuery - May 21, 2013 (c) 2013 @ElmahdiMahmoud
