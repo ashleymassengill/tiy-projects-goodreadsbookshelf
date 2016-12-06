@@ -7,6 +7,10 @@
   margin: 0px;
 }
 
+*:focus{
+  outline: none;
+}
+
 a{
   text-decoration: none;
 }
@@ -155,6 +159,8 @@ header{
     position: relative;
     float: left;
     margin: 15px;
+    margin-top: 8px;
+    display: none;
     img{
       height: 250px;
       object-fit: contain;

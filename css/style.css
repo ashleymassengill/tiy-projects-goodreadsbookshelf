@@ -15,6 +15,9 @@
   color: #5e5f60;
   margin: 0px; }
 
+*:focus {
+  outline: none; }
+
 a {
   text-decoration: none; }
 
@@ -134,7 +137,9 @@ header {
   .bookshelf .book {
     position: relative;
     float: left;
-    margin: 15px; }
+    margin: 15px;
+    margin-top: 8px;
+    display: none; }
     .bookshelf .book img {
       height: 250px;
       object-fit: contain;
