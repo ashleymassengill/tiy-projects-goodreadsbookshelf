@@ -27,6 +27,7 @@ h5{
 header{
   background: white;
   position: fixed;
+  padding-bottom: 5px;
   width: 100%;
   top: 0px;
   z-index: 200;
@@ -48,29 +49,19 @@ header{
     padding-top: 35px;
     float: left;
     width: 55%;
-  }
-    li{
-      display: inline;
-    a{
-      color: black;
-      font-size: 1.25rem;
-      padding-left: 10px;
-      padding-right: 10px;
-    }
-  }
-}
-
-.mobilenav{
-  color: black;
-  font-size: 1.25rem;
-  padding-right: 30px;
-  display: none;
-  .mobiledrop{
-    li{
-      font-size: 1rem;
-      padding: 5px;
-      display: block;
-      display: none;
+    ul{
+      .fa{
+        display: none;
+      }
+      li{
+        display: inline;
+        a{
+          color: black;
+          font-size: 1.25rem;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+      }
     }
   }
 }
@@ -132,6 +123,7 @@ header{
   padding-top: 5px;
   position: absolute;
   li{
+    width: 75px;
     font-size: 14px;
     padding: 2px;
     padding-left: 4px;
@@ -173,7 +165,7 @@ header{
       top: 0;
       left: 0;
       height: 250px;
-      object-fit: contain;
+      width: 100%;
       z-index: 100;
       background-color: $boxgraytrans;
       display: none;

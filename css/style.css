@@ -10,9 +10,6 @@
 .acctnavdrop li:hover {
   background: #bbbbbe; }
 
-.mobilenav .mobiledrop:hover li {
-  display: block; }
-
 * {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   color: #5e5f60;
@@ -34,6 +31,7 @@ h5 {
 header {
   background: white;
   position: fixed;
+  padding-bottom: 5px;
   width: 100%;
   top: 0px;
   z-index: 200; }
@@ -52,24 +50,15 @@ header {
     padding-top: 35px;
     float: left;
     width: 55%; }
-  .mainhead li {
-    display: inline; }
-    .mainhead li a {
-      color: black;
-      font-size: 1.25rem;
-      padding-left: 10px;
-      padding-right: 10px; }
-
-.mobilenav {
-  color: black;
-  font-size: 1.25rem;
-  padding-right: 30px;
-  display: none; }
-  .mobilenav .mobiledrop li {
-    font-size: 1rem;
-    padding: 5px;
-    display: block;
-    display: none; }
+    .mainhead .mainnav ul .fa {
+      display: none; }
+    .mainhead .mainnav ul li {
+      display: inline; }
+      .mainhead .mainnav ul li a {
+        color: black;
+        font-size: 1.25rem;
+        padding-left: 10px;
+        padding-right: 10px; }
 
 .searchbar {
   float: right;
@@ -118,6 +107,7 @@ header {
   padding-top: 5px;
   position: absolute; }
   .acctnavdrop li {
+    width: 75px;
     font-size: 14px;
     padding: 2px;
     padding-left: 4px;
@@ -154,9 +144,9 @@ header {
       top: 0;
       left: 0;
       height: 250px;
-      object-fit: contain;
+      width: 100%;
       z-index: 100;
-      background-color: rgba(187, 187, 190, 0.5);
+      background-color: rgba(187, 187, 190, 0.7);
       display: none; }
       .bookshelf .book .hover p, .bookshelf .book .hover i {
         color: black;
@@ -265,13 +255,21 @@ footer {
         height: 44.5px;
         width: 123px; }
     .mainhead .mainnav {
-      display: none; }
-
-  .mobilenav {
-    display: block;
-    padding-top: 8px;
-    float: right;
-    text-align: right; }
+      padding-right: 30px;
+      padding-top: 3px;
+      float: right;
+      text-align: right; }
+      .mainhead .mainnav ul .fa {
+        display: block;
+        color: black;
+        font-size: 28px; }
+      .mainhead .mainnav ul li {
+        list-style: none;
+        font-size: 1rem;
+        padding-top: 3px;
+        text-align: right;
+        display: block;
+        display: none; }
 
   .searchbar {
     clear: both;
