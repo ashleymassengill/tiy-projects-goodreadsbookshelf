@@ -1,3 +1,10 @@
+// desktop responsive hover
+@media(min-width: 1025px){
+  .book:hover .hover{
+    display: block;
+  }
+}
+
 // tablet responsive
 @media(min-width: 768px) and (max-width: 1024px){
   .mainhead{
@@ -74,6 +81,10 @@
       }
     }
   }
+
+  // .book:hover .hover{
+  //   display: none;
+  // }
 
   footer, .footlist{
     display: none;
@@ -190,6 +201,10 @@
       }
     }
   }
+  //
+  // .book:hover .hover{
+  //   display: none;
+  // }
 
   footer, .footlist{
     display: none;
