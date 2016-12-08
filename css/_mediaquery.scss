@@ -1,12 +1,16 @@
 // desktop responsive hover
-@media(min-width: 1025px){
+@media(min-width: 1010px){
   .book:hover .hover{
     display: block;
   }
 }
 
 // tablet responsive
-@media(min-width: 768px) and (max-width: 1024px){
+@media(min-device-width: 750px) and (max-device-width: 1010px){
+  .background{
+    display: none;
+  }
+
   .mainhead{
     height: 40.5px;
     .logo{
@@ -93,7 +97,7 @@
 
 
 // mobile responsive
-@media(min-width: 0px) and (max-width: 767px){
+@media(min-device-width: 1px) and (max-device-width: 667px){
   .background{
     display: none;
   }

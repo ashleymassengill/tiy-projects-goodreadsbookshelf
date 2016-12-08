@@ -187,10 +187,13 @@ footer {
       footer .footlist li a {
         font-size: 14px; }
 
-@media (min-width: 1025px) {
+@media (min-width: 1010px) {
   .book:hover .hover {
     display: block; } }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-device-width: 750px) and (max-device-width: 1010px) {
+  .background {
+    display: none; }
+
   .mainhead {
     height: 40.5px; }
     .mainhead .logo {
@@ -248,7 +251,7 @@ footer {
 
   footer, .footlist {
     display: none; } }
-@media (min-width: 0px) and (max-width: 767px) {
+@media (min-device-width: 1px) and (max-device-width: 667px) {
   .background {
     display: none; }
 
