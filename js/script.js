@@ -11,16 +11,16 @@ $(document).ready(function(event){
 });
 
 // mobile nav book info click state
-$(document).ready(function(event){
-  $(window).resize(function(){
-    if ($(window).width() <= 1024){
-      $(".book").click(function(){
-        $(".hover").slideToggle("slow");
-        console.log (".hover toggle working");
-      });
-    };
-  });
-});
+// $(document).ready(function(event){
+//   $(window).resize(function(){
+//     if ($(window).width() <= 1024){
+//       $(".book").click(function(){
+//         $(".hover").slideToggle("slow");
+//         console.log (".hover toggle working");
+//       });
+//     };
+//   });
+// });
 
 // bookshelf filtering code
 $(document).ready(function(event){

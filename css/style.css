@@ -256,12 +256,12 @@ footer {
     display: none; }
 
   .mainhead {
-    height: 27px; }
+    height: 85px; }
     .mainhead .logo {
       clear: both; }
       .mainhead .logo img {
-        height: 44.5px;
-        width: 123px; }
+        height: 150px;
+        object-fit: contain; }
     .mainhead .mainnav {
       padding-right: 30px;
       padding-top: 3px;
@@ -270,7 +270,8 @@ footer {
       .mainhead .mainnav ul .fa {
         display: block;
         color: black;
-        font-size: 28px; }
+        padding-top: 20px;
+        font-size: 60px; }
       .mainhead .mainnav ul li {
         list-style: none;
         font-size: 1rem;
@@ -281,6 +282,7 @@ footer {
 
   .searchbar {
     clear: both;
+    font-size: 18px;
     width: 90%;
     text-align: center;
     padding-top: 0px;
@@ -293,6 +295,7 @@ footer {
     display: none; }
   .subhead .shelfview {
     clear: both;
+    font-size: 24px;
     float: left;
     width: 100%;
     text-align: center; }
@@ -312,13 +315,14 @@ footer {
       .acctnav ul .acctnavicon {
         padding: 8px 8px; }
         .acctnav ul .acctnavicon img {
-          height: 25px;
-          width: 25px; }
+          height: 50px;
+          width: 50px;
+          margin: 5px; }
         .acctnav ul .acctnavicon h5 {
           display: none; }
 
   .bookshelf {
-    margin-top: 125px;
+    margin-top: 300px;
     width: 90%;
     text-align: center; }
     .bookshelf .book {
@@ -326,7 +330,7 @@ footer {
       float: none;
       text-align: center; }
       .bookshelf .book img {
-        height: 400px;
+        height: 1000px;
         object-fit: contain;
         padding-left: 25px;
         padding-right: 25px; }

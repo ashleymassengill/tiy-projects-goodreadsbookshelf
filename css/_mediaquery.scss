@@ -103,12 +103,12 @@
   }
 
   .mainhead{
-    height: 27px;
+    height: 85px;
     .logo{
       clear: both;
       img{
-        height: 44.5px;
-        width: 123px;
+        height: 150px;
+        object-fit: contain;
       }
     }
     .mainnav{
@@ -120,7 +120,8 @@
         .fa{
           display: block;
           color: black;
-          font-size: 28px;
+          padding-top: 20px;
+          font-size: 60px;
         }
         li{
           list-style: none;
@@ -136,6 +137,7 @@
 
   .searchbar{
     clear: both;
+    font-size: 18px;
     width: 90%;
     text-align: center;
     padding-top: 0px;
@@ -152,6 +154,7 @@
     }
     .shelfview{
       clear: both;
+      font-size: 24px;
       float: left;
       width: 100%;
       text-align: center;
@@ -175,8 +178,9 @@
       .acctnavicon{
         padding: 8px 8px;
         img{
-          height: 25px;
-          width: 25px;
+          height: 50px;
+          width: 50px;
+          margin: 5px;
         }
         h5{
           display: none;
@@ -186,7 +190,7 @@
   }
 
   .bookshelf{
-    margin-top: 125px;
+    margin-top: 300px;
     width: 90%;
     text-align: center;
     .book{
@@ -194,7 +198,7 @@
       float: none;
       text-align: center;
       img{
-        height: 400px;
+        height: 1000px;
         object-fit: contain;
         padding-left: 25px;
         padding-right: 25px;
